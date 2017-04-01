@@ -2,11 +2,9 @@ package sampl.test.com.viewcontainer.widget.component;
 
 import android.content.Context;
 import android.util.AttributeSet;
-import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.RelativeLayout;
 
-import sampl.test.com.viewcontainer.R;
 import sampl.test.com.viewcontainer.factory.CusomViewFactory;
 import sampl.test.com.viewcontainer.model.AttachmentDo;
 
@@ -38,7 +36,7 @@ public  class CustomView extends RelativeLayout  {
         // init the sub view based on type
         mIView.initViews(mView);
         // load data
-        mIView.loadViews();
+        mIView.loadViews(attachmentDo);
 
     }
 

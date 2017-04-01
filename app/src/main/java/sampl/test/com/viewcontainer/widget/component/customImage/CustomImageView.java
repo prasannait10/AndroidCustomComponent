@@ -1,20 +1,20 @@
-package sampl.test.com.viewcontainer.widget.component;
+package sampl.test.com.viewcontainer.widget.component.customImage;
 
 import android.content.Context;
-import android.util.AttributeSet;
-import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.ImageView;
 
 import sampl.test.com.viewcontainer.R;
 import sampl.test.com.viewcontainer.model.AttachmentDo;
+import sampl.test.com.viewcontainer.widget.component.customView.CustomView;
+import sampl.test.com.viewcontainer.widget.component.IView;
 
 /**
- * Created by dev on 24-03-2017.
+ * This component load and perform for Image type
  */
 
 
-public class CustomImageView extends CustomView implements IView{
+public class CustomImageView extends CustomView implements IView {
 
 
     private ImageView profile;

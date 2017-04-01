@@ -5,7 +5,8 @@ import android.view.View;
 import sampl.test.com.viewcontainer.model.AttachmentDo;
 
 /**
- * Created by dev on 24-03-2017.
+ *  Interface to decide what view loaded based on type
+ *
  */
 
 public interface IView {

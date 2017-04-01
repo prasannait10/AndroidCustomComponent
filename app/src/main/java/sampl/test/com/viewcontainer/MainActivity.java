@@ -3,9 +3,9 @@ package sampl.test.com.viewcontainer;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 
-import sampl.test.com.viewcontainer.factory.CusomViewFactory;
+import sampl.test.com.viewcontainer.factory.CustomViewFactory;
 import sampl.test.com.viewcontainer.model.AttachmentDo;
-import sampl.test.com.viewcontainer.widget.component.CustomView;
+import sampl.test.com.viewcontainer.widget.component.customView.CustomView;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
             setContentView(R.layout.activity_main);
             AttachmentDo attachmentDo = null;
             customView = (CustomView) findViewById(R.id.customView);
-            customView.loadViewBasedOnType(CusomViewFactory.TYPE_IMG, attachmentDo);
+            customView.loadViewBasedOnType(CustomViewFactory.TYPE_IMG, attachmentDo);
 
         } catch (Exception e) {
             e.printStackTrace();

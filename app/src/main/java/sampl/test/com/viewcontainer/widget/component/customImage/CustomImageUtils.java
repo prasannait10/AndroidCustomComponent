@@ -1,11 +1,12 @@
-package sampl.test.com.viewcontainer.widget.component;
+package sampl.test.com.viewcontainer.widget.component.customImage;
 
 import android.widget.ImageView;
 
 import sampl.test.com.viewcontainer.R;
 
 /**
- * Created by dev on 24-03-2017.
+ * This Utils responsible to  process for {@link CustomImageView}
+ * @see CustomImageView
  */
 
 public class CustomImageUtils {

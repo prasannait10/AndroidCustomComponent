@@ -7,14 +7,14 @@ import android.widget.ImageView;
 import sampl.test.com.viewcontainer.R;
 import sampl.test.com.viewcontainer.model.AttachmentDo;
 import sampl.test.com.viewcontainer.widget.component.customView.CustomView;
-import sampl.test.com.viewcontainer.widget.component.IView;
+import sampl.test.com.viewcontainer.widget.component.ICustomView;
 
 /**
  * This component load and perform for Image type
  */
 
 
-public class CustomImageView extends CustomView implements IView {
+public class CustomImageView extends CustomView implements ICustomView {
 
 
     private ImageView profile;

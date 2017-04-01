@@ -7,7 +7,7 @@ import android.view.ViewGroup;
 
 import sampl.test.com.viewcontainer.R;
 import sampl.test.com.viewcontainer.widget.component.customImage.CustomImageView;
-import sampl.test.com.viewcontainer.widget.component.IView;
+import sampl.test.com.viewcontainer.widget.component.ICustomView;
 
 /**
  * This factory give all res based on type
@@ -30,11 +30,11 @@ public class CustomViewFactory {
     /**
      *
      * @param type  type need to be image/vide/doc
-     * @return {@link IView} based on Type
-     * @see IView
+     * @return {@link ICustomView} based on Type
+     * @see ICustomView
      */
-    public IView getCustomView(String type, Context context) {
-        IView customView = null;
+    public ICustomView getCustomView(String type, Context context) {
+        ICustomView customView = null;
 
         switch (type) {
             case TYPE_IMG:
@@ -56,7 +56,7 @@ public class CustomViewFactory {
      * @param type need to be image/vide/doc
      * @return respective layout
      */
-    public View getViewBasedOnType(String type, Context context, View view) {
+    public View getLayoutViewBasedOnType(String type, Context context, View view) {
         LayoutInflater inflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
         switch (type) {
             case TYPE_IMG:

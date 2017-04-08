@@ -6,12 +6,12 @@
     android:layout_height="match_parent"
     tools:context="sampl.test.com.viewcontainer.MainActivity">
 
-<sampl.test.com.viewcontainer.widget.component.CustomView
+<sampl.test.com.viewcontainer.widget.component.customView.CustomView
     android:id="@+id/customView"
     android:layout_width="100dp"
     android:layout_height="100dp">
 
-</sampl.test.com.viewcontainer.widget.component.CustomView>
+</sampl.test.com.viewcontainer.widget.component.customView.CustomView>
 <ImageView
     android:layout_below="@+id/customView"
     android:src="@drawable/images"

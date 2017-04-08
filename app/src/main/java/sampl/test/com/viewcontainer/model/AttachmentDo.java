@@ -1,7 +1,8 @@
 package sampl.test.com.viewcontainer.model;
 
 /**
- * Created by dev on 24-03-2017.
+ * dummy model to use in {@link sampl.test.com.viewcontainer.widget.component.customView.CustomView}
+ *
  */
 
 public class AttachmentDo {
